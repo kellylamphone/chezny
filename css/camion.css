@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+body {
+	background: url("../images/bambou.jpg") no-repeat;
+	background-size: cover;
+}
+
+h1 {
+	color: black;
+	font-size: 60px;
+	text-align: center;
+}
+h2 {
+	color: black;
+	font-size: 40px;
+	text-align: center;
+}
+h3 {
+	color: black;
+	font-size: 30px;
+	text-align: center;
+	font-style: italic;
+	font-family: 'Nunito', sans-serif;
+}
+ul {
+	text-align: center;
+}
+ul li {
+	list-style: none;
+	position: relative;
+}
+.sousmenu {
+	background: white;
+	padding: 20px;
+	border-style: solid;
+	position: absolute;
+	width: 90%;
+	z-index: 1;
+	display: none;
+}
+ul li:hover .sousmenu {
+	display: block;
+}
+ul li:hover .button {
+	background-color: white;
+	color: black;
+}
+.button {
+	text-decoration: none;
+	text-align: center;
+	display: block;
+	height: 30px;
+	line-height: 3px;
+	padding: 20px;
+	text-transform: uppercase;
+	font-size: 20px;
+	font-family: 'Nunito', sans-serif;
+	letter-spacing: 0.5px;
+	font-weight: 400;
+	border-style: inset;
+	width: 90%;
+	background-color: black;
+	color: white;
+}
+table {
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+  border: 3px black;
+  font-family: 'Nunito', sans-serif;
+}
+.adresshoraires {
+	table-layout: fixed;
+	width: 60%;
+	text-align: center;
+	border-style: groove;
+	padding: 20px;
+	border-collapse: collapse;
+	background-color: white;
+	border-radius: 20px;
+	margin: 0 auto;
+}
